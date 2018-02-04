@@ -1,0 +1,60 @@
+html, body
+    min-height: 100%
+
+body
+    background: linear-gradient(180deg,#284795,#273151)
+    color: #fff
+    margin: 0
+
+.checklistnamebox
+    background: #42C4FF
+    padding: 3rem
+    h1
+        margin: 0
+        font-size: 1.2rem
+        letter-spacing: 5px
+        text-transform: uppercase
+        font-weight: 500
+
+.checkscontainer
+    padding: 3rem
+    ul
+        list-style: none
+        margin: 0
+        padding: 0
+        li
+            color: #2E6CA1
+            text-transform: uppercase
+            display: flex
+            justify-content: space-between
+            margin-bottom: 2rem
+            padding: 0 2rem
+            &.activecheck
+                background: rgba(255,255,255,0.03)
+                font-size: 2rem
+                color: #fff
+                font-weight: 700
+                padding: 2rem
+
+.buttonswrapper
+    margin-top: 3rem
+button
+    display: inline-block
+    font-weight: 400
+    line-height: 1.25
+    text-align: center
+    white-space: nowrap
+    vertical-align: middle
+    -webkit-user-select: none
+    -moz-user-select: none
+    -ms-user-select: none
+    user-select: none
+    border: 1px solid transparent
+    padding: .5rem 1rem
+    font-size: 1rem
+    border-radius: .25rem
+    -webkit-transition: all .2s ease-in-out
+    -o-transition: all .2s ease-in-out
+    transition: all .2s ease-in-out
+    &:hover
+        background: #eee
